@@ -1,0 +1,88 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "PsychAds"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "PsychAds"
+	description = "Translating digital footprints."
+
+	# The path must be relative to the static folder
+	favicon = "favicon2.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "PsychAds"
+
+		[params.navigation.links]
+			about     = "The Basics"
+			services  = "The theory"
+			portfolio = "Capabilites"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Translating digital footprints"
+		subtitle   = "Helping you better understand your audience"
+		buttonText = "Show me how"
+
+
+	# About section
+	[params.about]
+		headline    = "The basics"
+		description = "Perceiving and judging other people’s personality traits is an essential component of lives. We use personality judgments to make day-to-day decisions and long-term plans in both our personal and professional lives, such as whom to befriend, marry, trust, hire, or even elect as president. The more accurate the judgment, the better the decision."
+		buttonText  = "Go on"
+
+
+	# Service section
+	[params.services]
+		headline = "The theory"
+
+        [[params.services.list]]
+            title = "Psychometrics"
+            description = "While most successful professionals can make accurate judgements of character intuitively, psychometric testing is used to formalise the process and employ it on a large scale."
+ 
+		[[params.services.list]]
+            title = "Personality"
+            description = "Personality can be used to predict factors as wide ranging as job performance, academic achievement and mental health, as well as specific behaviours such as drug use, infidelity, taking long breaks and theft."
+		
+		[[params.services.list]]
+            title = "Business"
+            description = "By some estimates 70% of large companies use psychometric testing, particularly to aid their recruitment process. In one area psychometric testing has remained conspicuously absent: adverstising."
+
+		[[params.services.list]]
+            title = "Advertising"
+            description = "With the rise of the internet and artificial intelligence, it has become possible to predict personality based on online footprints. With our technology, you can tailor your campaign, messages and product to a highly personalised crowd."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "For now we are offering our services to a select few. Sign up if you are interested."
+
+	# Contact section
+	[params.contact]
+		headline = "Questions left?"
+		description = "Get in touch"
+		email = "feedback@psychads.com"
