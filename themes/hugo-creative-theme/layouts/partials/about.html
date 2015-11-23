@@ -6,8 +6,49 @@
                 <h2 class="section-heading">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
                 <hr class="light">
                 <p class="text-faded">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
-                <a href="#services" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
+				<hr class="light">
             </div>
         </div>
     </div>
+	    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                   <a href="http://www.wired.com/2015/01/facebook-personality-test/"> 
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/2000px-Wired_logo.svg.png" alt="Wired" style="width:202px;height:42px;border:150;">
+				</a>
+				   </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+				<a href="https://www.washingtonpost.com/news/the-intersect/wp/2015/09/02/can-we-guess-who-you-are-based-on-the-pages-youve-liked-on-facebook/"> 
+				<img src="https://img.washingtonpost.com/pb/resources/img/thewashingtonpost-white-2x.png" alt="WP" style="width:281px;height:42px;border:0;">
+				</a>
+				 </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+						<a href="https://www.youtube.com/watch?v=I4ftlpgfd8s&feature=youtu.be"> 
+				<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_logo.svg/2000px-Bloomberg_logo.svg.png" alt="FT" style="width:210px;height:42px;border:0;">
+				</a>
+				</div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+				<a href="http://www.theguardian.com/technology/2015/jan/13/your-computer-knows-you-researchers-cambridge-stanford-university"> 
+				<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/The_Guardian.svg" alt="FT" style="width:250px;height:42px;border:0;">
+				</a>    
+				</div>
+            </div>
+        </div>
+    </div>
+					<hr class="light">
+					   <div class="col-lg-8 col-lg-offset-2 text-center">
+	   <a href="#services" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
+            </div>
+
 </section>
+

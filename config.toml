@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://psychads.github.io/"
 languageCode = "en-us"
 title = "PsychAds"
 theme = "hugo-creative-theme"
@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "PsychAds"
-	description = "Translating digital footprints."
+	description = ""
 
 	# The path must be relative to the static folder
 	favicon = "favicon2.png"
@@ -32,23 +32,23 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			about     = "The Basics"
-			services  = "The theory"
-			portfolio = "Capabilites"
+			services  = "The Theory"
+			portfolio = "The Product"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Translating digital footprints"
-		subtitle   = "Helping you better understand your audience"
+		slogan     = "Making advertising personal"
+		subtitle   = "Translating digital footprints"
 		buttonText = "Show me how"
 
 
 	# About section
 	[params.about]
 		headline    = "The basics"
-		description = "Perceiving and judging other people’s personality traits is an essential component of lives. We use personality judgments to make day-to-day decisions and long-term plans in both our personal and professional lives, such as whom to befriend, marry, trust, hire, or even elect as president. The more accurate the judgment, the better the decision."
+		description = "Perceiving and judging other people’s personality traits is an essential component of our lives. We use personality judgments to make day-to-day decisions and long-term plans in both our personal and professional lives, such as whom to befriend, marry, trust, hire, or even [elect as president](http://www.pnas.org/content/112/4/1036.full.pdf). The more accurate the judgment, the better the decision.<br><br>Personality can be used to [predict](http://biculturalism.ucr.edu/pdfs/Ozer&BM_ARP.pdf) job performance, academic achievement and even drug use, infidelity, taking long breaks and theft. By some estimates 70% of large companies use psychometric testing, particularly to aid their recruitment process. In one area psychometric testing has remained conspicuously absent: advertising.<br><br>With the rise of the internet and artificial intelligence, it has become possible to predict personality based on online footprints. With our technology, you can tailor your campaign, messages and product to a highly personalised crowd. You can look into your best customers heads to understand what makes them tick."
 		buttonText  = "Go on"
 
 
@@ -57,20 +57,20 @@ theme = "hugo-creative-theme"
 		headline = "The theory"
 
         [[params.services.list]]
-            title = "Psychometrics"
-            description = "While most successful professionals can make accurate judgements of character intuitively, psychometric testing is used to formalise the process and employ it on a large scale."
+            title = "Why use personality targeting?"
+            description = "An ads platform might tell you how old your audience is and what phone they are on, but does that mean you really know them? With out technology you could even predict how messy the bedrooms of your best clients are. Find out who your audience truly is."
  
 		[[params.services.list]]
-            title = "Personality"
-            description = "Personality can be used to predict factors as wide ranging as job performance, academic achievement and mental health, as well as specific behaviours such as drug use, infidelity, taking long breaks and theft."
+            title = "What should I say?"
+            description = "With personality targeting you can also personalise your message. Tell your creative audience why your product is new and exciting. Tell your more traditional clients why the fundamentals remain the same. "
 		
 		[[params.services.list]]
-            title = "Business"
-            description = "By some estimates 70% of large companies use psychometric testing, particularly to aid their recruitment process. In one area psychometric testing has remained conspicuously absent: adverstising."
+            title = "How does it work?"
+            description = "We translate users online behavioural footprints into actionable data that makes ad targeting possible. Our AI does the hard work. We don’t burden anyone with questionnaires, and you don’t have to handle any sensitive data."
 
 		[[params.services.list]]
-            title = "Advertising"
-            description = "With the rise of the internet and artificial intelligence, it has become possible to predict personality based on online footprints. With our technology, you can tailor your campaign, messages and product to a highly personalised crowd."
+            title = "What will I know?"
+            description = "Market research is expensive, uninformative and disruptive for customers. It may also become obsolete in the digital age. We enable instant psychological assessment of your users based on their online behaviour, generating immediate feedback. "
 
 
     # Portfolio modals
